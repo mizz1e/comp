@@ -1,0 +1,12 @@
+[package]
+name = "bevy-smithay"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+ash.workspace = true
+bevy.workspace = true
+smithay.workspace = true
+smithay-drm-extras.workspace = true
+thiserror.workspace = true
+wgpu.workspace = true
